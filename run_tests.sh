@@ -3,7 +3,7 @@
 cur_dir=$(pwd); 
 for i in $(ls -d */)
 do
-    if [ $i == "etl/" ]; then
+    if [ "$i" == "etl/" ]; then
         continue
     fi
 
